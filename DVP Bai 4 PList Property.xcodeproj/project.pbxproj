@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05BD33151EC4A74E004C6F89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BD33141EC4A74E004C6F89 /* AppDelegate.swift */; };
+		05BD33171EC4A74E004C6F89 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BD33161EC4A74E004C6F89 /* ViewController.swift */; };
+		05BD331A1EC4A74E004C6F89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05BD33181EC4A74E004C6F89 /* Main.storyboard */; };
+		05BD331C1EC4A74E004C6F89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05BD331B1EC4A74E004C6F89 /* Assets.xcassets */; };
+		05BD331F1EC4A74E004C6F89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05BD331D1EC4A74E004C6F89 /* LaunchScreen.storyboard */; };
+		05BD332A1EC4A74E004C6F89 /* DVP_Bai_4_PList_PropertyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BD33291EC4A74E004C6F89 /* DVP_Bai_4_PList_PropertyTests.swift */; };
+		05BD33351EC4A74E004C6F89 /* DVP_Bai_4_PList_PropertyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BD33341EC4A74E004C6F89 /* DVP_Bai_4_PList_PropertyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		05BD33261EC4A74E004C6F89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05BD33091EC4A74E004C6F89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05BD33101EC4A74E004C6F89;
+			remoteInfo = "DVP Bai 4 PList Property";
+		};
+		05BD33311EC4A74E004C6F89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05BD33091EC4A74E004C6F89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05BD33101EC4A74E004C6F89;
+			remoteInfo = "DVP Bai 4 PList Property";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05BD33111EC4A74E004C6F89 /* DVP Bai 4 PList Property.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DVP Bai 4 PList Property.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05BD33141EC4A74E004C6F89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		05BD33161EC4A74E004C6F89 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		05BD33191EC4A74E004C6F89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		05BD331B1EC4A74E004C6F89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		05BD331E1EC4A74E004C6F89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		05BD33201EC4A74E004C6F89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05BD33251EC4A74E004C6F89 /* DVP Bai 4 PList PropertyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DVP Bai 4 PList PropertyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05BD33291EC4A74E004C6F89 /* DVP_Bai_4_PList_PropertyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DVP_Bai_4_PList_PropertyTests.swift; sourceTree = "<group>"; };
+		05BD332B1EC4A74E004C6F89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05BD33301EC4A74E004C6F89 /* DVP Bai 4 PList PropertyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DVP Bai 4 PList PropertyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05BD33341EC4A74E004C6F89 /* DVP_Bai_4_PList_PropertyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DVP_Bai_4_PList_PropertyUITests.swift; sourceTree = "<group>"; };
+		05BD33361EC4A74E004C6F89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05BD330E1EC4A74E004C6F89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05BD33221EC4A74E004C6F89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05BD332D1EC4A74E004C6F89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05BD33081EC4A74E004C6F89 = {
+			isa = PBXGroup;
+			children = (
+				05BD33131EC4A74E004C6F89 /* DVP Bai 4 PList Property */,
+				05BD33281EC4A74E004C6F89 /* DVP Bai 4 PList PropertyTests */,
+				05BD33331EC4A74E004C6F89 /* DVP Bai 4 PList PropertyUITests */,
+				05BD33121EC4A74E004C6F89 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		05BD33121EC4A74E004C6F89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05BD33111EC4A74E004C6F89 /* DVP Bai 4 PList Property.app */,
+				05BD33251EC4A74E004C6F89 /* DVP Bai 4 PList PropertyTests.xctest */,
+				05BD33301EC4A74E004C6F89 /* DVP Bai 4 PList PropertyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05BD33131EC4A74E004C6F89 /* DVP Bai 4 PList Property */ = {
+			isa = PBXGroup;
+			children = (
+				05BD33141EC4A74E004C6F89 /* AppDelegate.swift */,
+				05BD33161EC4A74E004C6F89 /* ViewController.swift */,
+				05BD33181EC4A74E004C6F89 /* Main.storyboard */,
+				05BD331B1EC4A74E004C6F89 /* Assets.xcassets */,
+				05BD331D1EC4A74E004C6F89 /* LaunchScreen.storyboard */,
+				05BD33201EC4A74E004C6F89 /* Info.plist */,
+			);
+			path = "DVP Bai 4 PList Property";
+			sourceTree = "<group>";
+		};
+		05BD33281EC4A74E004C6F89 /* DVP Bai 4 PList PropertyTests */ = {
+			isa = PBXGroup;
+			children = (
+				05BD33291EC4A74E004C6F89 /* DVP_Bai_4_PList_PropertyTests.swift */,
+				05BD332B1EC4A74E004C6F89 /* Info.plist */,
+			);
+			path = "DVP Bai 4 PList PropertyTests";
+			sourceTree = "<group>";
+		};
+		05BD33331EC4A74E004C6F89 /* DVP Bai 4 PList PropertyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				05BD33341EC4A74E004C6F89 /* DVP_Bai_4_PList_PropertyUITests.swift */,
+				05BD33361EC4A74E004C6F89 /* Info.plist */,
+			);
+			path = "DVP Bai 4 PList PropertyUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05BD33101EC4A74E004C6F89 /* DVP Bai 4 PList Property */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05BD33391EC4A74E004C6F89 /* Build configuration list for PBXNativeTarget "DVP Bai 4 PList Property" */;
+			buildPhases = (
+				05BD330D1EC4A74E004C6F89 /* Sources */,
+				05BD330E1EC4A74E004C6F89 /* Frameworks */,
+				05BD330F1EC4A74E004C6F89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DVP Bai 4 PList Property";
+			productName = "DVP Bai 4 PList Property";
+			productReference = 05BD33111EC4A74E004C6F89 /* DVP Bai 4 PList Property.app */;
+			productType = "com.apple.product-type.application";
+		};
+		05BD33241EC4A74E004C6F89 /* DVP Bai 4 PList PropertyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05BD333C1EC4A74E004C6F89 /* Build configuration list for PBXNativeTarget "DVP Bai 4 PList PropertyTests" */;
+			buildPhases = (
+				05BD33211EC4A74E004C6F89 /* Sources */,
+				05BD33221EC4A74E004C6F89 /* Frameworks */,
+				05BD33231EC4A74E004C6F89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05BD33271EC4A74E004C6F89 /* PBXTargetDependency */,
+			);
+			name = "DVP Bai 4 PList PropertyTests";
+			productName = "DVP Bai 4 PList PropertyTests";
+			productReference = 05BD33251EC4A74E004C6F89 /* DVP Bai 4 PList PropertyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		05BD332F1EC4A74E004C6F89 /* DVP Bai 4 PList PropertyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05BD333F1EC4A74E004C6F89 /* Build configuration list for PBXNativeTarget "DVP Bai 4 PList PropertyUITests" */;
+			buildPhases = (
+				05BD332C1EC4A74E004C6F89 /* Sources */,
+				05BD332D1EC4A74E004C6F89 /* Frameworks */,
+				05BD332E1EC4A74E004C6F89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05BD33321EC4A74E004C6F89 /* PBXTargetDependency */,
+			);
+			name = "DVP Bai 4 PList PropertyUITests";
+			productName = "DVP Bai 4 PList PropertyUITests";
+			productReference = 05BD33301EC4A74E004C6F89 /* DVP Bai 4 PList PropertyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05BD33091EC4A74E004C6F89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = HCMUTE;
+				TargetAttributes = {
+					05BD33101EC4A74E004C6F89 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					05BD33241EC4A74E004C6F89 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 05BD33101EC4A74E004C6F89;
+					};
+					05BD332F1EC4A74E004C6F89 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 05BD33101EC4A74E004C6F89;
+					};
+				};
+			};
+			buildConfigurationList = 05BD330C1EC4A74E004C6F89 /* Build configuration list for PBXProject "DVP Bai 4 PList Property" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 05BD33081EC4A74E004C6F89;
+			productRefGroup = 05BD33121EC4A74E004C6F89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05BD33101EC4A74E004C6F89 /* DVP Bai 4 PList Property */,
+				05BD33241EC4A74E004C6F89 /* DVP Bai 4 PList PropertyTests */,
+				05BD332F1EC4A74E004C6F89 /* DVP Bai 4 PList PropertyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05BD330F1EC4A74E004C6F89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05BD331F1EC4A74E004C6F89 /* LaunchScreen.storyboard in Resources */,
+				05BD331C1EC4A74E004C6F89 /* Assets.xcassets in Resources */,
+				05BD331A1EC4A74E004C6F89 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05BD33231EC4A74E004C6F89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05BD332E1EC4A74E004C6F89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05BD330D1EC4A74E004C6F89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05BD33171EC4A74E004C6F89 /* ViewController.swift in Sources */,
+				05BD33151EC4A74E004C6F89 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05BD33211EC4A74E004C6F89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05BD332A1EC4A74E004C6F89 /* DVP_Bai_4_PList_PropertyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05BD332C1EC4A74E004C6F89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05BD33351EC4A74E004C6F89 /* DVP_Bai_4_PList_PropertyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05BD33271EC4A74E004C6F89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05BD33101EC4A74E004C6F89 /* DVP Bai 4 PList Property */;
+			targetProxy = 05BD33261EC4A74E004C6F89 /* PBXContainerItemProxy */;
+		};
+		05BD33321EC4A74E004C6F89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05BD33101EC4A74E004C6F89 /* DVP Bai 4 PList Property */;
+			targetProxy = 05BD33311EC4A74E004C6F89 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		05BD33181EC4A74E004C6F89 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05BD33191EC4A74E004C6F89 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		05BD331D1EC4A74E004C6F89 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05BD331E1EC4A74E004C6F89 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		05BD33371EC4A74E004C6F89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		05BD33381EC4A74E004C6F89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		05BD333A1EC4A74E004C6F89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "DVP Bai 4 PList Property/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "IT.DVP-Bai-4-PList-Property";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		05BD333B1EC4A74E004C6F89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "DVP Bai 4 PList Property/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "IT.DVP-Bai-4-PList-Property";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		05BD333D1EC4A74E004C6F89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "DVP Bai 4 PList PropertyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "IT.DVP-Bai-4-PList-PropertyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DVP Bai 4 PList Property.app/DVP Bai 4 PList Property";
+			};
+			name = Debug;
+		};
+		05BD333E1EC4A74E004C6F89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "DVP Bai 4 PList PropertyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "IT.DVP-Bai-4-PList-PropertyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DVP Bai 4 PList Property.app/DVP Bai 4 PList Property";
+			};
+			name = Release;
+		};
+		05BD33401EC4A74E004C6F89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "DVP Bai 4 PList PropertyUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "IT.DVP-Bai-4-PList-PropertyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "DVP Bai 4 PList Property";
+			};
+			name = Debug;
+		};
+		05BD33411EC4A74E004C6F89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "DVP Bai 4 PList PropertyUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "IT.DVP-Bai-4-PList-PropertyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "DVP Bai 4 PList Property";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05BD330C1EC4A74E004C6F89 /* Build configuration list for PBXProject "DVP Bai 4 PList Property" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05BD33371EC4A74E004C6F89 /* Debug */,
+				05BD33381EC4A74E004C6F89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05BD33391EC4A74E004C6F89 /* Build configuration list for PBXNativeTarget "DVP Bai 4 PList Property" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05BD333A1EC4A74E004C6F89 /* Debug */,
+				05BD333B1EC4A74E004C6F89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		05BD333C1EC4A74E004C6F89 /* Build configuration list for PBXNativeTarget "DVP Bai 4 PList PropertyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05BD333D1EC4A74E004C6F89 /* Debug */,
+				05BD333E1EC4A74E004C6F89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		05BD333F1EC4A74E004C6F89 /* Build configuration list for PBXNativeTarget "DVP Bai 4 PList PropertyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05BD33401EC4A74E004C6F89 /* Debug */,
+				05BD33411EC4A74E004C6F89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 05BD33091EC4A74E004C6F89 /* Project object */;
+}
