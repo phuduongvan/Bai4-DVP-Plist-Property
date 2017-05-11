@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  DVP Bai 4 PList Property
 //
-//  Created by THANH on 5/11/17.
+//  Created by DVP on 5/11/17.
 //  Copyright © 2017 HCMUTE. All rights reserved.
 //
 

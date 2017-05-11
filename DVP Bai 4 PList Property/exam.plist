@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   exam.plist
+   DVP Bai 4 PList Property
+
+   Created by DVP on 5/11/17.
+   Copyright (c) 2017 HCMUTE. All rights reserved.
+-->
+<plist version="1.0">
+    <dict>
+        <key>Inverse Color</key>
+        <false/>
+        <key>Red</key>
+        <real>0.3</real>
+        <key>Blue</key>
+        <integer>0</integer>
+        <key>Green</key>
+        <real>0.3</real>
+        <key>Pie</key>
+        <array>
+            <string>Cau 1</string>
+            <string>Viet Nam</string>
+            <string>French Silk</string>
+            <string>Coconut Cream</string>
+            <string>Blueberry</string>
+            <string>Boston Cream</string>
+        </array>
+    </dict>
+</plist>
+
+

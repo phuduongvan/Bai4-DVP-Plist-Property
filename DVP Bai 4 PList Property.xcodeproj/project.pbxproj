@@ -14,6 +14,7 @@
 		05BD331F1EC4A74E004C6F89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05BD331D1EC4A74E004C6F89 /* LaunchScreen.storyboard */; };
 		05BD332A1EC4A74E004C6F89 /* DVP_Bai_4_PList_PropertyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BD33291EC4A74E004C6F89 /* DVP_Bai_4_PList_PropertyTests.swift */; };
 		05BD33351EC4A74E004C6F89 /* DVP_Bai_4_PList_PropertyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BD33341EC4A74E004C6F89 /* DVP_Bai_4_PList_PropertyUITests.swift */; };
+		05BD33431EC4A7A5004C6F89 /* exam.plist in Resources */ = {isa = PBXBuildFile; fileRef = 05BD33421EC4A7A5004C6F89 /* exam.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		05BD33301EC4A74E004C6F89 /* DVP Bai 4 PList PropertyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DVP Bai 4 PList PropertyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		05BD33341EC4A74E004C6F89 /* DVP_Bai_4_PList_PropertyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DVP_Bai_4_PList_PropertyUITests.swift; sourceTree = "<group>"; };
 		05BD33361EC4A74E004C6F89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05BD33421EC4A7A5004C6F89 /* exam.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = exam.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				05BD331B1EC4A74E004C6F89 /* Assets.xcassets */,
 				05BD331D1EC4A74E004C6F89 /* LaunchScreen.storyboard */,
 				05BD33201EC4A74E004C6F89 /* Info.plist */,
+				05BD33421EC4A7A5004C6F89 /* exam.plist */,
 			);
 			path = "DVP Bai 4 PList Property";
 			sourceTree = "<group>";
@@ -235,6 +238,7 @@
 				05BD331F1EC4A74E004C6F89 /* LaunchScreen.storyboard in Resources */,
 				05BD331C1EC4A74E004C6F89 /* Assets.xcassets in Resources */,
 				05BD331A1EC4A74E004C6F89 /* Main.storyboard in Resources */,
+				05BD33431EC4A7A5004C6F89 /* exam.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
